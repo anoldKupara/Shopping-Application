@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Web", "Micro.Web\Micro.Web.csproj", "{CD809331-DAB6-4479-BE0F-F4638E55C122}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{23E3B655-1498-4929-8556-DA3B8751FDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Services.ProductAPI", "Micro.Services.ProductAPI\Micro.Services.ProductAPI.csproj", "{D2F5AAEB-BA20-40EF-8055-449543CAF58C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{CD809331-DAB6-4479-BE0F-F4638E55C122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD809331-DAB6-4479-BE0F-F4638E55C122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD809331-DAB6-4479-BE0F-F4638E55C122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F5AAEB-BA20-40EF-8055-449543CAF58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F5AAEB-BA20-40EF-8055-449543CAF58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F5AAEB-BA20-40EF-8055-449543CAF58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F5AAEB-BA20-40EF-8055-449543CAF58C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD809331-DAB6-4479-BE0F-F4638E55C122} = {1265D9ED-81A8-455C-B665-BE2814725617}
+		{D2F5AAEB-BA20-40EF-8055-449543CAF58C} = {23E3B655-1498-4929-8556-DA3B8751FDEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A3C3266-6DC3-48B8-A788-33F91A5A4F63}
